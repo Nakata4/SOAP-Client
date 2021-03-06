@@ -7,6 +7,14 @@
 
 package demo;
 
+import java.net.URL;
+
+import javax.xml.namespace.QName;
+import javax.xml.rpc.Call;
+import javax.xml.rpc.ServiceException;
+import javax.xml.rpc.encoding.TypeMappingRegistry;
+import javax.xml.rpc.handler.HandlerRegistry;
+
 public class DemoClassServiceLocator extends org.apache.axis.client.Service implements demo.DemoClassService {
 
     public DemoClassServiceLocator() {
@@ -148,6 +156,62 @@ if ("DemoClass".equals(portName)) {
 
 	@Override
 	public String fetchFilm(String filmName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	@Override
+	public Call createCall() throws ServiceException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	@Override
+	public Call createCall(QName arg0) throws ServiceException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	@Override
+	public Call createCall(QName arg0, QName arg1) throws ServiceException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	@Override
+	public Call createCall(QName arg0, String arg1) throws ServiceException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	@Override
+	public Call[] getCalls(QName arg0) throws ServiceException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	@Override
+	public HandlerRegistry getHandlerRegistry() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	@Override
+	public TypeMappingRegistry getTypeMappingRegistry() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	@Override
+	public URL getWSDLDocumentLocation() {
 		// TODO Auto-generated method stub
 		return null;
 	}
